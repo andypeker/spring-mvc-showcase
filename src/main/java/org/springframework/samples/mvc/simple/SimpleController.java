@@ -12,4 +12,9 @@ public class SimpleController {
 		return "Hello world!";
 	}
 
+	@RequestMapping("/")
+	public @ResponseBody String index(){
+		return "default Page";
+	}
+
 }
